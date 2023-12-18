@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --easternblue:rgb(38, 150, 191);
+    --blue-transparent:rgba(38, 150, 191, 0.6);
+    --black:#000000;
+    --light-grey:#f1f1f1;
+    --white:#ffffff;
+   
+}
+.container{
+    padding: 0px;
+}
+.navbar{
+    background-color: var(--easternblue);
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    padding: 0px 8px;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--light-grey);
+
+}
+.navbar ul li a i{
+    padding: 0px 6px;
+    font-size: 20px;
+}
+
+.navbar ul li a i:hover{
+    color: rgb(173, 173, 173);
+
+}
+.navbar ul li a:hover{
+    color: rgb(173, 173, 173);
+
+}
+.navbar-brand img{
+    background-color:var(--white);
+}
+.navbar-brand img{
+    margin-left: 50px;
+}
+
+.navbar-tags ul li a{
+    padding: 0px 10px;
+    color: var(--black);
+}
+
+.navbar-tags ul li a:hover{
+    color: var(--easternblue);
+}
+
+.nav .overline{
+    
+   
+    display: flex;
+   
+   
+}
+
+.icone{
+    margin-top: 0;
+    font-size: 20px;
+    color: var(--easternblue);
+  
+   
+   
+}
+
+.right{
+    height: 2px;
+    width: 70px;
+    margin-top: 16px;
+    margin-right: 6px;
+    border-bottom: dashed var(--easternblue);
+}
+
+.left{
+    height: 2px;
+    width: 70px;
+    margin-top: 16px;
+    margin-left: 6px;
+    border-bottom: dashed var(--easternblue);
+}
+
+.nav-link .active{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-link{
+    margin-top: 8px;
+    padding: 0px;
+}
+ h2{
+    margin: 0px;
+    color: #000000;
+}
+
+p{
+    color: #000000;
+}
+
+
+.emoji-div img{
+    
+    height: 90px;
+    width: 80px;
+    padding-bottom: 10px;
+   
+}
+.row{
+   padding: 12px;
+}
+
+.card{
+    background-color: var(--light-grey);
+    border-radius: 0;
+    border: none;
+
+}
+
+.card:hover{
+    background-color: var(--blue-transparent);
+}
+
+.gallery-section{
+    
+    margin-top: 20px;
+    background-color: var(--light-grey);
+}
+.gallery-section h2{
+    padding-top: 10PX;
+}
+.gallery-section ul li{
+    color: #000000;
+    padding: 0px 16px;
+}
+.gallery-section ul li a{
+    color: #000000;
+}
+
+.gallery-section ul li a:hover{
+    color: var(--easternblue);
+
+}
+
+.emoji-section{
+    background-color: var(--easternblue);
+}
+.pic-div{
+    height: 500px;
+}
+.pic-div img{
+   height: 400px; 
+   width: 400px;
+}
+
+.pictwo-div img{
+    height: 200px;  
+    width: 220px;
+
+}
+
+.container ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container ul li{
+    list-style-type: none;
+  margin-top: 10px;
+    
+}
+.text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-div h3{
+    margin-left: 40px;
+   
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.fourpix-section h2{
+    padding-top: 10PX;
+}
+
+.four-secton-card-text{
+    color: var(--light-grey);
+    padding:10px 60px;
+    background-color: var(--easternblue);
+}
+.four-section-card{
+    position: relative;
+    background-color: var(--easternblue);
+}
+.four-section-card-text{
+    
+  height: 100px;
+  width: 288px;
+  position: absolute;
+  padding:30px 20px;
+ 
+  bottom: -85px;
+  background-color: var(--easternblue);
+  
+  
+}
+
+
+.four-section-card-text i{
+   color: var(--white);
+    font-size: 30px;
+
+}
+
+.four-section-card-text i:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.col.four-secton-card img:hover{
+    background-color: var(--blue-transparent);
+}
+.twopic-card-body{
+   
+   padding: 8px;
+}
+.twopic-card-body:hover{
+    background-color: var(--blue-transparent);
+    
+ }
+
+
+.our-event{
+    margin-top: 20px;
+    background-color: var(--light-grey);
+}
+
+.our-event h2{
+    padding-top: 10PX;
+}
+
+
+.text-box h4{
+    text-align: center;
+}
+.text-box p{
+    text-align: center;
+}
+
+.parents-says{
+    background-color: var(--easternblue);
+}
+
+.parents-says h2{
+    color: var(--light-grey);
+    padding-top:10px ;
+}
+
+.parents-says p{
+    color: var(--light-grey);
+    padding-top:10px ;
+}
